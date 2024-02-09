@@ -25,6 +25,7 @@ body {
     ),
     url("bg-pattern-dark.png");
   background-repeat: repeat;
+  background-attachment: fixed;
   background-size: 100% 100%, 30% 30%, 100% 100%;
   min-height: 110rem;
 }
@@ -176,6 +177,10 @@ ol {
   gap: 2rem;
   margin: 0;
   padding: 0;
+}
+
+#game-button {
+  border-radius: 1rem;
 }
 
 #game-board button {
